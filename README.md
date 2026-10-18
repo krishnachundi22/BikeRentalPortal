@@ -192,9 +192,5 @@ The objective of this project is to develop a full-stack application that demons
 ## 👨‍💻 Author
 
 **Your Name**
-
-GitHub: [Your GitHub Profile](https://github.com/your-username)
-
----
-
-⭐ If you find this project useful, consider giving the repository a star!
+E.Venugopal Reddy
+ 
