@@ -3,6 +3,7 @@ package com.venu.bikerentalapi.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,6 +17,7 @@ import com.venu.bikerentalapi.model.BikeRental;
 import com.venu.bikerentalapi.service.BikesService;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:5173")
 @RequestMapping("/bikerent")
 public class BikeRentalController {
 
@@ -44,6 +46,7 @@ public class BikeRentalController {
 	
 	@DeleteMapping("/delete/{id}")
 	String deleteCustomer(@PathVariable Integer id) {
+		bikeSeivce.deleteCustomerbyId(id);
 		return "Deleted Sucessfully";
 	}
 	

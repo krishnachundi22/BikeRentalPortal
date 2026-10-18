@@ -13,9 +13,9 @@ import lombok.Setter;
 public class BikeRental {
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	Integer id;
-	
+
 	String customerName;
 	String customerPhone;
 	String bikeNumber;
@@ -24,5 +24,5 @@ public class BikeRental {
 	Integer noofHours;
 	double amount;
 	String rentalStatus;
-	
+
 }
