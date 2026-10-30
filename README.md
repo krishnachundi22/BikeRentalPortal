@@ -192,5 +192,5 @@ The objective of this project is to develop a full-stack application that demons
 ## 👨‍💻 Author
 
 **Your Name**
-E.Venugopal Reddy
+CH.KRISHNAVARDHANREDDY
  
