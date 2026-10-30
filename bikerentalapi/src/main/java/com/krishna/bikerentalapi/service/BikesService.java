@@ -1,8 +1,8 @@
-package com.venu.bikerentalapi.service;
+package com.krishna.bikerentalapi.service;
 
 import java.util.List;
 
-import com.venu.bikerentalapi.model.BikeRental;
+import com.krishna.bikerentalapi.model.BikeRental;
 
 public interface BikesService {
 

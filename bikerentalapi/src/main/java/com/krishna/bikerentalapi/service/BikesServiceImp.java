@@ -1,4 +1,4 @@
-package com.venu.bikerentalapi.service;
+package com.krishna.bikerentalapi.service;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.venu.bikerentalapi.model.BikeRental;
-import com.venu.bikerentalapi.repo.BikeRentalRepo;
+import com.krishna.bikerentalapi.model.BikeRental;
+import com.krishna.bikerentalapi.repo.BikeRentalRepo;
 
 @Service
 public class BikesServiceImp implements BikesService {

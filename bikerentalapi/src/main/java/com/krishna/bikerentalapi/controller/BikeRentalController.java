@@ -1,4 +1,4 @@
-package com.venu.bikerentalapi.controller;
+package com.krishna.bikerentalapi.controller;
 
 import java.util.List;
 
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.venu.bikerentalapi.model.BikeRental;
-import com.venu.bikerentalapi.service.BikesService;
+import com.krishna.bikerentalapi.model.BikeRental;
+import com.krishna.bikerentalapi.service.BikesService;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:5173")
